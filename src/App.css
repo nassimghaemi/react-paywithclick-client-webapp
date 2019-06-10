@@ -1,0 +1,335 @@
+/* login styles */
+.Welcome{
+  display: flex;
+  flex-flow: wrap;
+  justify-content:space-around;
+}
+.Home{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100vh;
+  
+}
+.HomeButtonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.HomeButtonContainer label{
+  margin-top:10%;
+}
+.HomeButton{
+  height:8vh;
+  width:30vw;
+  border:2px solid rgb(6, 5, 58);
+  background-image:  linear-gradient(rgb(93, 160, 177),rgb(243, 204, 240));
+  color:rgb(240, 49, 160);
+  text-decoration: none;
+  text-align: center;
+  line-height: 8vh;
+  border-radius: 3px;
+}
+.HomeButton:hover{
+  color:rgb(172, 30, 5);
+}
+.Login{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width:50vw;
+}
+
+.Logincontainer{
+  color:rgb(194, 18, 156);
+  text-align: center;
+ }
+.LoginInput{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginButton{
+  height:6vh;
+  width:30vw;
+  border:2px solid rgb(6, 5, 58);
+  background-image:  linear-gradient(rgb(93, 160, 177),rgb(243, 204, 240));
+  color:rgb(152, 27, 168);
+  text-decoration: none;
+  text-align: center;
+  line-height: 6vh;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size:14px;
+}
+.loginButton:hover{
+  color: rgb(226, 153, 124);
+}
+.LoginInput a{
+font-size: 16px;
+color:rgb(255, 10, 181);
+text-decoration: none;
+}
+
+@keyframes rotating{
+  from{transform:rotate(0)}
+  to{transform:rotate(360)}
+
+}
+
+.accountImage{
+  width:30%;
+  height:30%;
+  animation-name:rotating;
+  animation-direction: 5s;
+}
+/* sign up styles */
+.Register{
+  display: flex;
+  flex-flow: wrap;
+  justify-content:space-around;
+  
+}
+
+.RightRegister{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-size: 16px;
+}
+.RightRegister input:hover{
+  color: rgb(122, 66, 185);
+}
+/* chat pages styles */
+
+.chatpage{
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: space-between;
+}
+
+.chatpage aside{
+  width:17vw;
+  background-image:linear-gradient(rgb(10, 29, 34),rgb(5, 7, 19));
+}
+.chatleftaside{
+  border-top-right-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.firstheader{
+  margin:13px 5px;
+  border-radius: 7px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.firstheader input{
+  background-color: rgb(54, 61, 92);
+  border-radius:3px;
+  height:5vh;
+  float:left;
+}
+.secondheader{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  color:rgb(48, 7, 44);
+  margin-top:6px;
+}
+.size{
+  font-size: 18px;
+  width:2vw;
+  height:3vh;
+  border-radius: 22px;
+  
+}
+.chatleftaside section{
+  height:auto;
+  margin-top:5px;
+  
+  
+}
+.ContactRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 26, 56);
+  height:9vh;
+  cursor: pointer;
+}
+.ContactRow:hover{
+  background-color: rgb(18, 23, 44);
+
+}
+
+.ContactImage{
+  width:2vw;
+  height:3vh;
+  border-radius:20px;
+  float:left;
+  margin-left:3px;
+}
+.Unseen{
+  width:2vw;
+  height:4vh;
+  border-radius:20px;
+  background-color: rgb(170, 212, 72);
+  text-align: right;
+  font-size: 15px;
+  line-height: 4vh;
+}
+.ContactName{
+  font-size: 16px;
+  color:rgb(226, 14, 67);
+}
+/* main chat screen */
+.pagemainside{
+  display: flex;
+  flex-direction: column;
+}
+.Contactheader{
+  background-image:linear-gradient(rgb(10, 29, 34),rgb(5, 7, 19));
+  height:8vh;
+  width:65vw;
+  margin-top:10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+.contactInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:15px;
+}
+.Chattype{
+  display: flex;
+  justify-content: space-around;
+  width:7vw;
+}
+.chatcontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 20;
+}
+.chatSender{
+
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-end;
+}
+.chatSender p{
+  width:max-content;
+  height: max-content;
+  background-color: rgb(67, 223, 53);
+  padding: 5px;
+  border-top-left-radius: 8px;
+  margin:10px;
+}
+.chatreceiver{
+  background-color: rgb(221, 233, 60);
+  border-top-right-radius: 8px;
+  width:max-content;
+  height: max-content;
+  padding: 5px;
+  margin:10px;
+} 
+.chatfooter{
+  background-image:linear-gradient(rgb(3, 17, 20),rgb(0, 1, 5));
+  height:8vh;
+  width:65vw;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  font-size:18px;
+  flex-grow: 1;
+  
+}
+.chatfooter input{
+  width:58vw;
+  height:4.2vh;
+  background-color:rgb(28, 34, 59);
+  color:rgb(170, 212, 72);
+}
+
+.informationImage{
+  width:7vw;
+  height:7vw;
+  border-radius:50px;
+}
+.ProfileDetails{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  height:100vh;
+}
+.profileDetailpic{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.profilesecondpart{
+ 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  height:70vh;
+}
+.imageContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  
+}
+.sharedmediasize{
+  margin-bottom: 3px;
+  height:10vh;
+  width: 17vw;
+
+}
+.more{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:17vw;
+  margin-top:20px;
+
+}
+.suggestion{
+  height:5vh;
+  background-color: rgb(93, 160, 177);
+  border-bottom: 1px solid rgb(10, 29, 34);
+  padding:5px;
+  width:17vw;
+  margin-top:3px;
+  cursor: pointer;
+}

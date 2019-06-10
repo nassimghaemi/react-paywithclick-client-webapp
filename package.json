@@ -1,0 +1,31 @@
+{
+  "name": "messenger",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "antd": "^3.18.1",
+    "axios": "^0.18.0",
+    "emoji-picker-react": "^2.1.1",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "0.9.5",
+    "redux": "^4.0.1",
+    "validate.js": "^0.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "standard": "standard",
+    "standard :: fix": "standard --fix"
+  }
+}
